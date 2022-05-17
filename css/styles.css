@@ -42,13 +42,13 @@ img {
   outline: 1px solid red;
 }
 .section {
-  max-width: 1600px;
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: violet;
   outline: 1px solid rgb(28, 76, 209);
 }
 /* --------------------- LOGO ---------------------*/
+
 .header-logo-first-part,
 .footer-logo-first-part {
   color: #2196f3;
@@ -87,7 +87,8 @@ img {
 /* ------------------- HEADER ---------------------*/
 .header-section {
   background-color: #ffffff;
-  padding-bottom: 0;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .header-section .container {
   display: flex;
@@ -95,8 +96,6 @@ img {
 }
 .header-list {
   display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
   margin-left: 93px;
 }
 .header-item:not(:first-child) {
@@ -124,6 +123,8 @@ img {
   background: #2f303a;
   text-align: center;
   max-height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   margin: 0 auto 30px auto;
@@ -138,11 +139,14 @@ img {
   color: #ffffff;
 }
 .hero-button {
+  padding: 10px 32px;
+
   font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;

@@ -39,13 +39,13 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: violet;
-  outline: 1px solid rgb(28, 76, 209);
+  /* background-color: violet;
+  outline: 1px solid rgb(28, 76, 209); */
 }
 /* --------------------- LOGO ---------------------*/
 
@@ -177,13 +177,13 @@ img {
   background-color: #ffffff;
 }
 .aboun-benefits-section.container {
-  display: flex;
-}
-.aboun-benefits {
+  /* display: flex; */
 }
 .aboun-benefits-list {
   display: flex;
-  justify-content: space-between;
+}
+.benefits-item + .benefits-item {
+  margin-left: 30px;
 }
 .aboun-benefits {
   margin-bottom: 10px;
@@ -263,7 +263,16 @@ img {
   text-align: center;
 }
 .team-img {
-  margin-bottom: 30px;
+}
+.card-name {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  background: #ffffff;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-img-name {
   margin-bottom: 10px;
@@ -285,7 +294,8 @@ img {
 /* -------------footer------------------------------------------- */
 .footer {
   background: #2f303a;
-  padding-top: 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer .container {
   display: flex;
@@ -335,6 +345,7 @@ img {
   margin-left: 0;
 }
 .hero-button-list {
+  padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -350,14 +361,11 @@ img {
 .product-list {
   display: flex;
   flex-wrap: wrap;
-  padding-inline-start: 1px;
   margin-left: -30px;
   margin-bottom: -30px;
-
-  background-color: rgb(14, 209, 30);
 }
 .product-gallery {
-  flex-basis: calc(100% / 8-30px);
+  flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-bottom: 30px;
 }
@@ -370,7 +378,10 @@ img {
 .img-link {
 }
 .product-gallery-img {
-  margin-bottom: 20px;
+}
+.gallery-card {
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
 .product-img-title {
   margin-bottom: 4px;

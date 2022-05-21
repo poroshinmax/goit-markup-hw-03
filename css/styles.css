@@ -89,6 +89,8 @@ img {
   background-color: #ffffff;
   padding-top: 24px;
   padding-bottom: 25px;
+
+  border: 1px solid #ececec;
 }
 .header-section .container {
   display: flex;
@@ -105,15 +107,16 @@ img {
   display: flex;
   margin-left: auto;
 }
-.header-tel {
-  font-weight: 500;
-  color: #757575;
-  text-decoration: none;
-}
+.header-tel,
 .header-mail {
   font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
   color: #757575;
-  text-decoration: none;
+}
+.header-mail {
 }
 .header-connect .accent + .accent {
   margin-left: 50px;
@@ -304,9 +307,11 @@ img {
 .footer-list {
   font-style: normal;
 }
-.footer-address-text {
+.footer-list-item:not(:last-child) {
   margin-bottom: 9px;
+}
 
+.footer-address-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -324,6 +329,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
@@ -356,7 +362,7 @@ img {
   color: #212121;
 }
 .btn-list-title + .btn-list-title {
-  margin-left: 30px;
+  margin-left: 8px;
 }
 .product-list {
   display: flex;
